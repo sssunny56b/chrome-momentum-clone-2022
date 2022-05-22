@@ -110,3 +110,16 @@ img {
   background-color: rgb(249, 233, 181);
   border: none;
 }
+#login-form input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 205px;
+  border: none;
+  border-radius: 10px;
+}
+#login-form button {
+  border: solid rgb(213, 210, 210);
+  border-radius: 10px;
+  background-color: white;
+}

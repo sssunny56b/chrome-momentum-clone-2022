@@ -1,0 +1,112 @@
+.hidden {
+  display: none;
+}
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+#clock {
+  color: white;
+  font-weight: bolder;
+  font-size: 150px;
+  text-shadow: 2px 2px 10px rgb(58, 57, 60);
+  margin-bottom: -70px;
+}
+#greeting {
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  text-shadow: 2px 2px 10px rgb(58, 57, 60);
+}
+#weather {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#weather span {
+  color: white;
+  text-shadow: 1px 1px 10px rgb(58, 57, 60);
+  font-weight: 800px;
+  font-size: 20px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#quote span:first-child {
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(7, 7, 7);
+  font-weight: bold;
+  font-size: 20px;
+}
+#quote span:nth-child(2) {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(7, 7, 7);
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+}
+
+.todo {
+  position: absolute;
+  opacity: 0.8;
+  bottom: 30px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 90vh;
+  border-radius: 10px;
+  background-color: rgb(249, 233, 181);
+}
+
+#todo-input {
+  margin-top: 20px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  width: 205px;
+  border: none;
+  border-radius: 10px;
+}
+#todo-list {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(99, 99, 99);
+}
+#todo-list span {
+  margin-right: 10px;
+}
+#todo-list button {
+  background-color: rgb(249, 233, 181);
+  border: none;
+}
